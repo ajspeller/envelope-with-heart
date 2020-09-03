@@ -5,9 +5,21 @@
 body {
   margin: 0;
   padding: 0;
-  background: #233637;
+  /* background: #233637; */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.envelope {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #eee;
+  border-right: 170px solid #ddd;
+  border-bottom: 100px solid #ccc;
+  border-left: 170px solid #ccc;
+}
+
+.heart {
 }
